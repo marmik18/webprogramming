@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1150px) and (min-width: 768px){
+	.container{
+		padding-right: 100px !important;
+		padding-left: 100px !important;
+	}
+	header > nav > ul.container{
+		padding-right: 200px !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.container{
+		padding-right: 50px !important;
+		padding-left: 50px !important;
+	}
+	#section1 img{
+		width: 550px !important;
+	}
+	#section2 img{
+		width: 550px !important;
+	}
+}
