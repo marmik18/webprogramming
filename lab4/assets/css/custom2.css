@@ -5,8 +5,7 @@
 	src: url(../fonts/Exo-Regular.woff2);
 } 
 body{
-	position: relative;
-	top: 0
+
 }
 .center-align{
 	text-align: center;
@@ -20,23 +19,63 @@ body{
 /*.container{
 	padding-right: 200px;
 	padding-left: 200px;
+	}
 }*/
-header{
-
+#start{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #00897b;
+	height: 100vh;
+	width: 100%;
+}
+#start h1{
+	position: fixed;
+	transform: rotate(270deg);
+	top: 43vh;
+	left: -175px;
+	transform: translateY(-50%),rotate(270deg);
+	font-weight: bold;
+	font-size: 60px;
+	margin:0!important;
+}
+#start h2{
+	position: absolute;
+	font-size: 45px;
+	top: 35vh;
+	left: 60%;
+	transform: translateX(-50%);
+}
+#start h4{
+	position: absolute;
+	font-size: 22px;
+	top: 55vh;
+	left: 68%;
+	transform: translateX(-50%);
+}
+#start h1,#start h2,#start h4{
+	font-family: exo;
+}
+header nav {
+	position: fixed;
+	transform: translateY(-50%);
+	top: 50vh;
+}
+header nav img{
+	width: 200px;
+	
 }
 header > .innerbox {
-    height: 50em;
-    overflow: hidden;
-    background-color: #c879b2;
-    width: 200px !important;
+	z-index: 9999999999;
+    height: 100vh;
+    background-color: #004d40;
+    width: 200px;
     position: fixed;
     top: 0;
+    left: 200px;
+    overflow: hidden;    
 }
-header > div > nav {
-position: absolute;
-top: 50%;
-transform: translateY(-50%);
-}
+
 header > div > nav > ul {
 list-style: none;
 padding: 0 !important;
@@ -47,8 +86,7 @@ header > div > nav > ul > a > li{
 	transition: 0.3s all ease;
 }
 header > div > nav > ul > a > li:hover{
-	background-color: #000;
-
+	background-color: #00897b;
 }
 header > div > nav > ul > a   {
 	text-decoration: none;
@@ -57,14 +95,19 @@ header > div > nav > ul > a   {
 	font-family: sans-serif;
 	text-transform: uppercase;
 } 
-hr{
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+#section1{
+	margin-top: 100vh;
+	background-color: #80cbc4;
 }
-section{
-	margin-left: 250px;
-	padding: 0 100px;
+
+#section2{
+	background-color: #004d40;
+}
+#section3{
+	background-color: #80cbc4;
+}
+#section1,#section2,#section3{
+	padding-left: 450px;
 }
 /*header{
 	padding-top: 50px; 
