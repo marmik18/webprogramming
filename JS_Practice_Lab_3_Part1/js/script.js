@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         
         // Call server to get the name
         $ajaxUtils
-          .sendGetRequest("data/name.json", function (request) {
+          .sendGetRequest("data/name.text", function (request) {
               var name = request.responseText;
               document.querySelector("#content").innerHTML = "<h2>Hello " + name + "!</h2>";
           });
