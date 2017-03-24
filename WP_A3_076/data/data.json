@@ -1,0 +1,46 @@
+[
+{
+	"name":"marmik",
+	"wp_lec":{
+		"con":14,
+		"att":14
+	},
+	"wp_lab":{
+		"con":14,
+		"att":8
+	}
+},
+{
+	"name":"abc",
+	"wp_lec":{
+		"con":14,
+		"att":12
+	},
+	"wp_lab":{
+		"con":14,
+		"att":14
+	}	
+},
+{
+	"name":"xyz",
+	"wp_lec":{
+		"con":14,
+		"att":10
+	},
+	"wp_lab":{
+		"con":14,
+		"att":10
+	}	
+},
+{
+	"name":"name",
+	"wp_lec":{
+		"con":14,
+		"att":12
+	},
+	"wp_lab":{
+		"con":14,
+		"att":12
+	}	
+}
+]
